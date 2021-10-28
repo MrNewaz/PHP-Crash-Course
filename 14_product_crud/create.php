@@ -30,18 +30,18 @@ $products = $statement->fetchAll(PDO::FETCH_ASSOC);
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
-    <title>Product CRUD</title>
+    <title>Product CRUD!</title>
 </head>
 
 <body>
     <div class="container">
-        <h1 class='mt-3'>Product CRUD</h1>
+        <h1 class='mt-3 text-center'>Product CRUD!</h1>
 
         <p><a class='btn btn-success' href="create.php">
                 Create Product
             </a></p>
 
-        <table class="table table-bordered my-3">
+        <table class="table table-dark table-striped my-3">
             <thead>
                 <tr>
                     <th scope="col">#</th>
@@ -63,9 +63,9 @@ $products = $statement->fetchAll(PDO::FETCH_ASSOC);
                         <td><?php echo $product['price'] ?></td>
                         <td><?php echo $product['create_date'] ?></td>
                         <td>
-                            <button type="button" class="btn btn-sm btn-outline-primary">Edit</button>
+                            <button type="button" class="btn btn-sm btn-primary">Edit</button>
                             <button type="button" class="btn btn-sm
-                            btn-outline-danger">Delete</button>
+                            btn-danger">Delete</button>
                         </td>
 
 
