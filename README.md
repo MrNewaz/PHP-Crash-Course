@@ -1,4 +1,4 @@
-# Learning php
+# PHP Crash Course
 
  - Comments
  - Variables
